@@ -1,3 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  output: 'export',
+  basePath: '/financial-dashboard-ai',
+  images: { unoptimized: true },
+  trailingSlash: true,
+}
 module.exports = nextConfig
